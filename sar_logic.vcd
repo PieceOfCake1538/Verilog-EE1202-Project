@@ -1,0 +1,262 @@
+$date
+	Sat Nov 22 18:38:13 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sar_logic_tb $end
+$var wire 8 ! sar_code [7:0] $end
+$var wire 1 " sample $end
+$var wire 1 # done $end
+$var wire 1 $ busy $end
+$var parameter 32 % CLK_PERIOD $end
+$var parameter 32 & N $end
+$var reg 1 ' clk $end
+$var reg 1 ( comp_out $end
+$var reg 1 ) rst $end
+$var reg 1 * start $end
+$var reg 8 + test_vector [7:0] $end
+$var integer 32 , i [31:0] $end
+$scope module dut $end
+$var wire 1 ' clk $end
+$var wire 1 ( comp_out $end
+$var wire 1 ) rst $end
+$var wire 1 * start $end
+$var parameter 32 - N $end
+$var parameter 3 . S_DECIDE $end
+$var parameter 3 / S_DONE $end
+$var parameter 3 0 S_IDLE $end
+$var parameter 3 1 S_SAMPLE $end
+$var parameter 3 2 S_TRIAL $end
+$var reg 1 $ busy $end
+$var reg 1 # done $end
+$var reg 3 3 next_state [2:0] $end
+$var reg 1 " sample $end
+$var reg 8 4 sar_code [7:0] $end
+$var reg 3 5 state [2:0] $end
+$var reg 8 6 trial_bit_pointer [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 2
+b1 1
+b0 0
+b100 /
+b11 .
+b1000 -
+b1000 &
+b1010 %
+$end
+#0
+$dumpvars
+bx 6
+bx 5
+bx 4
+b0 3
+bx ,
+b10110001 +
+0*
+1)
+0(
+0'
+x$
+x#
+x"
+bx !
+$end
+#5
+0$
+0#
+0"
+b0 5
+b0 6
+b0 !
+b0 4
+1'
+#10
+0'
+#15
+1'
+#20
+0'
+0)
+#25
+1'
+#30
+b1 3
+0'
+1*
+#35
+1"
+b1 5
+b10 3
+0*
+1'
+#40
+0'
+#45
+1$
+0"
+b11 3
+b10 5
+b10000000 6
+1'
+#50
+0'
+#55
+b10 3
+1(
+b10000000 !
+b10000000 4
+b11 5
+b111 ,
+1'
+#60
+0'
+#65
+b11 3
+b10 5
+b1000000 6
+1'
+#70
+0'
+#75
+b10 3
+0(
+b11000000 !
+b11000000 4
+b11 5
+b110 ,
+1'
+#80
+0'
+#85
+b11 3
+b10 5
+b100000 6
+b10000000 !
+b10000000 4
+1'
+#90
+0'
+#95
+b10 3
+1(
+b10100000 !
+b10100000 4
+b11 5
+b101 ,
+1'
+#100
+0'
+#105
+b11 3
+b10 5
+b10000 6
+1'
+#110
+0'
+#115
+b10 3
+b10110000 !
+b10110000 4
+b11 5
+b100 ,
+1'
+#120
+0'
+#125
+b11 3
+b10 5
+b1000 6
+1'
+#130
+0'
+#135
+b10 3
+0(
+b10111000 !
+b10111000 4
+b11 5
+b11 ,
+1'
+#140
+0'
+#145
+b11 3
+b10 5
+b100 6
+b10110000 !
+b10110000 4
+1'
+#150
+0'
+#155
+b10 3
+b10110100 !
+b10110100 4
+b11 5
+b10 ,
+1'
+#160
+0'
+#165
+b11 3
+b10 5
+b10 6
+b10110000 !
+b10110000 4
+1'
+#170
+0'
+#175
+b10 3
+b10110010 !
+b10110010 4
+b11 5
+b1 ,
+1'
+#180
+0'
+#185
+b11 3
+b10 5
+b1 6
+b10110000 !
+b10110000 4
+1'
+#190
+0'
+#195
+b100 3
+1(
+b10110001 !
+b10110001 4
+b11 5
+b0 ,
+1'
+#200
+0'
+#205
+1#
+b0 3
+b100 5
+b0 6
+1'
+#210
+0'
+#215
+0$
+0#
+b0 5
+b11111111111111111111111111111111 ,
+1'
+#220
+0'
+#225
+1'
